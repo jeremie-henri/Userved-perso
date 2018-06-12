@@ -1,0 +1,59 @@
+Diagramme des cas d'utilisation :
+
+que peut faire un utilisateur ?
+Tout ce qui est indiqué dans le Diagramme des Cas d'Utilisation (Inscription , Connection , Configurer son compte...)
+
+A chaque fois que l'on veut faire quelque chose on se connecte (très lourd) ou bien une fois connecté on peut faire plusieurs 
+choses.
+On as mis que la connexion était obligatoire pour des raisons de sécurité. Une fois connecté , on as accès à tout le site.
+
+On ne se déconnecte jamais.
+Exact , nous allons rajouter cette option dans le menu déroulant. (Ainsi que dans les diagrammes)
+
+Inscription et Connexion sont 2 cas particulers d'identification ?
+Oui , on l'ajoute dans le diagramme de cas d'utilisation.
+
+Je ne vois pas le cas d'utilisation corresondant au texte moit de passe oublié.
+Il y est dans le diagramme de cas d'utilisation ("Mot de passe oublié")
+
+Je mets le reste de mes remarques en vrac :
+
+Que se passe-t-il si les info sont toujours mauvaise après les avoir saisies à nouveau (dans plusieurs cas dont descritpion 
+textuelle de mot de passe oublié.
+Il y aura toujours des messages d'erreur , tant que l'utilisateur se trompe , on lui redemande le mot de passe.
+
+On dirait que vos différents diagrammes sont indépendants les uns des autres.
+Que voulez-vous dire ?
+
+Dans vos descritions textuelles vous devriez distinguer émetteur (de la note par exemple) et destinataire (de cette même note)
+Exact , nous rajoutons ça dans la description textuelle.
+
+Je ne vois pas le diagramme de séquense de inscription (cf. description textuelle) ...
+Il était sur basecamp et pas sur GitHub , nous l'ajoutons .
+
+Texte et diagramme de séquence de dépot d'une annonce ne correspondent pas.
+Où sont sauvegardées les listes d'annonces et d'avis ? Je suppose que pour utiliser le site, il faut saisir ou connaître l'URL.
+Dans la base de données , nous l'avons liée aux annonces et aux avis .
+Je pense qu'il faut connaitre l'url , car nous ne pourrons pas nous faire référencer...
+
+Pourquoi ne pas envisager des annonces (ou des avis) provisoires, jusqu'à validation par le modérateur qui serait prvenu à chaque 
+dépos ?
+Inutile et trop compliqué , on attendra simplement que l'annonce soit validée pour la mettre en ligne.
+
+Les diagrammes de séquences sont inutilisables.
+Pourquoi ?
+
+Les diagrammes de classes sont travaillés, mais où sont rangés les avis et les offres ?
+Comme dit précédemment , nous les avons mis dans la base de donnée.
+
+Le système vérifie l'avis ? Avec une intelligence artificielle ? Ne serait-il pas plus judicieux que ce soit le modérateur
+que vous utiliser pour valider une offre qui s'en charge. D'ailleurs que peut faire ce modérateur que je ne vois pas sur 
+les diagrammes de cas d'utilisation.
+Certains mots et expressions seront interdites , c'est pourquoi le modérateur n'as pas à s'en charger .
+
+Utiliser le menu déroulant ???
+Le menu déroulant sert à accéder aux infos du profil , et se déconnecter. Néanmoins , nous avons enlevé le cas d'utilisation menu déroulant car il était illogique.
+
+Il y a visiblement du travail, mais vous n'avez pas bien compris les diagrammes de cas d'utilisation, ni les diagrammes 
+de séquences. Manque de cohérence.
+Ca devrait être mieux à présent.
